@@ -11,7 +11,7 @@
   "scripts": {
     "build": "tsc && tsc -p tsconfig.esm.json",
     "dev": "tsc -w",
-    "postinstall": "yarn build"
+    "postinstall": "yarn install && yarn build"
   },
   "keywords": [
     "wasm-pack",
